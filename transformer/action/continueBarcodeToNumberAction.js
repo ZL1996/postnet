@@ -3,7 +3,7 @@
  */
 'use strict';
 
-const func1 = require('../../codeBarcode');
+const func1 = require('../../barcodeToCode');
 let func = new func1();
 
 class ContinueBarcodeToNumberAction{

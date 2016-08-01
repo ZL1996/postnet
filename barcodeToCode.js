@@ -110,4 +110,4 @@ function matchBarcodeInfo(cuttedFrameOrigin, barcodeInfo) {
     return matchedCode;
 }
 
-module.exports(ChangeBarcodeTocode);
+module.exports = ChangeBarcodeTocode;

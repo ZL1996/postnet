@@ -9,7 +9,7 @@ class ChangeCodeToBarcode{
     changCodeToBarcode(origin) {
         let codeLegal = isCodeLegal(origin);
         if (!codeLegal) {
-            return;
+            return false;
         }
         let completeCode = completeCheckCode(origin);
         let barcodeInfo = loadCodeInfo();
